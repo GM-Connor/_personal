@@ -1,0 +1,8 @@
+# cc: can call with no args, setting input file to first ".c" file if found
+
+case $# in
+0) args=`ls | grep \\\.c$ | sed 1q` ;;
+*) args=$*                          ;;
+esac
+
+cc $args
