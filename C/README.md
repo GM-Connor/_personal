@@ -17,3 +17,9 @@ find position of int value in array. -1 if not found
 ```c
 int LinearArraySearch(int arr[], int arrlen, int value);
 ```
+
+### squeeze.c
+remove all characters in string1 that exist in string2
+```c
+void squeeze(char s1[], char s2[]);
+```
