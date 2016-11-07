@@ -18,6 +18,12 @@ find position of int value in array. -1 if not found
 int LinearArraySearch(int arr[], int arrlen, int value);
 ```
 
+### lower.c
+converts char[] string to lowercase (ascii)
+```c
+void lower(char str[]);
+```
+
 ### squeeze.c
 remove all characters in string1 that exist in string2
 ```c
