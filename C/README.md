@@ -29,3 +29,9 @@ remove all characters in string1 that exist in string2
 ```c
 void squeeze(char s1[], char s2[]);
 ```
+
+### vis.c
+converts funny characters in input to octal. Takes option `-s` which strips funny characters instead of converting
+```c
+void vis(FILE *fp, int strip);
+```
