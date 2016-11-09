@@ -30,6 +30,10 @@ converts char[] string to lowercase (ascii)
 void lower(char str[]);
 ```
 
+### p.c
+prints input in chunks
+`p [%filenames%]`
+
 ### reverseEscape.c
 converts escaped newlines and tabs to character equivalents as it copies string `from[]` to string `to[]`
 ```c
