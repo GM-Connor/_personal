@@ -1,5 +1,11 @@
 # C directory
 
+###DivideConquerSort.c
+sorts array of ints increasing using divide and conquer sort algorithm
+```c
+void mergesort(int array[], int p, int r);
+```
+
 ### escape.c
 converts newlines and tabs to escape sequences as it copies string `from[]` to string `to[]`
 ```c
