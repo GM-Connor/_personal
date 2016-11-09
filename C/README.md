@@ -1,5 +1,11 @@
 # C directory
 
+### escape.c
+converts newlines and tabs to escape sequences as it copies string `from[]` to string `to[]`
+```c
+void escape(char to[], char from[]);
+```
+
 ### InsertionSort.c
 sorts array of ints increasing given array and array length
 ```c
@@ -22,6 +28,12 @@ int LinearArraySearch(int arr[], int arrlen, int value);
 converts char[] string to lowercase (ascii)
 ```c
 void lower(char str[]);
+```
+
+### reverseEscape.c
+converts escaped newlines and tabs to character equivalents as it copies string `from[]` to string `to[]`
+```c
+void reverseEscape(char to[], char from[]);
 ```
 
 ### squeeze.c
