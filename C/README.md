@@ -24,6 +24,12 @@ sorts array of ints decreasing given array and array length
 void InsertionSortReverse(int arr[], int arrlen);
 ```
 
+# itoa.c
+converts int n into characters in string s[].
+```c
+void itoa(int n, char s[]);
+```
+
 ### LinearArraySearch.c
 find position of int value in array. -1 if not found
 ```c
