@@ -37,8 +37,8 @@ void lower(char str[]);
 ```
 
 ### p.c
-prints input in chunks
-`p [%filenames%]`
+prints input in chunks. accepts custom chunksize as well as option filename(s)
+`p [-%n%] [%filenames%]`
 
 ### reverseEscape.c
 converts escaped newlines and tabs to character equivalents as it copies string `from[]` to string `to[]`
