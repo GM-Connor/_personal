@@ -3,6 +3,12 @@
 ### c
 allows `cc` (UNIX c compiler program) to be run without args, setting input file arg as first .c file found in current working directory
 
+### p.c
+prints input in chunks. accepts custom chunksize as well as option filename(s)
+```
+p [-%n%] [%filenames%]
+```
+
 ### pick
 select from list of arguments
 
