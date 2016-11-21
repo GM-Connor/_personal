@@ -5,3 +5,7 @@ allows `cc` (UNIX c compiler program) to be run without args, setting input file
 
 ### pick
 select from list of arguments
+
+### zap.c
+interactive program killer for UNIX/LINUX
+`zap [%match_string%]`
