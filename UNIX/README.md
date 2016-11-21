@@ -8,4 +8,6 @@ select from list of arguments
 
 ### zap.c
 interactive program killer for UNIX/LINUX
-`zap [%match_string%]`
+```
+zap [%match_string%]
+```
