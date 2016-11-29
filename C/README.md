@@ -42,6 +42,12 @@ converts char[] string to lowercase (ascii)
 void lower(char str[]);
 ```
 
+### QuickSort.c
+sorts int array in place, given array, index of first element, and index of last element
+```c
+void QuickSort(int arr[], int p, int r);
+```
+
 ### reverseEscape.c
 converts escaped newlines and tabs to character equivalents as it copies string `from[]` to string `to[]`
 ```c
