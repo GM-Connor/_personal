@@ -54,6 +54,12 @@ remove all characters in string1 that exist in string2
 void squeeze(char s1[], char s2[]);
 ```
 
+### strend.c
+returns 1 if string t occurs at end of string s, 0 otherwise
+```c
+int strend(char s[], char t[]);
+```
+
 ### vis.c
 converts funny characters in input to octal. Takes option `-s` which strips funny characters instead of converting
 ```c
