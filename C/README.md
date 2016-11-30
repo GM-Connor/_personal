@@ -1,5 +1,12 @@
 # C directory
 
+###dateconv.c
+can convert day of year to month and day. vice versa
+```c
+unsigned short dayOfYear(unsigned short year, unsigned char month, unsigned char day);
+void monthDay(unsigned short year, unsigned short year_day, unsigned char *month, unsigned char *day);
+```
+
 ###DivideConquerSort.c
 sorts array of ints increasing using divide and conquer sort algorithm
 ```c
