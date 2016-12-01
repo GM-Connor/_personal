@@ -9,6 +9,12 @@ prints command-line arguments
 echo [ARGUMENT]...
 ```
 
+### find.c
+prints input lines matching pattern
+```
+find [-x] [-n] %PATTERN%
+```
+
 ### p.c
 prints input in chunks. accepts custom chunksize as well as option filename(s)
 ```
