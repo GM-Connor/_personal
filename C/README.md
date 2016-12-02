@@ -1,5 +1,11 @@
 # C directory
 
+###CountingSort.c
+sorts int array given fromArray, fromArray length, toArray, and max possible fromArray value. Sorts in linear time.
+```c
+void CountingSort(int A[], int A_len, int B[], int k);
+```
+
 ###dateconv.c
 can convert day of year to month and day. vice versa
 ```c
