@@ -3,6 +3,12 @@
 ### c
 allows `cc` (UNIX c compiler program) to be run without args, setting input file arg as first .c file found in current working directory
 
+### cased.c
+converts input to uppercase/lowercase depending on option. prints original if no option
+```
+cased [-u] [-l]
+```
+
 ### echo.c
 prints command-line arguments
 ```
