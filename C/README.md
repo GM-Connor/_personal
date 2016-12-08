@@ -73,6 +73,15 @@ remove all characters in string1 that exist in string2
 void squeeze(char s1[], char s2[]);
 ```
 
+### stacks.c
+can use stacks (LIFO data structure)
+```c
+Stack *newStack();
+Boolean stackPush(Stack *stack, int x);
+int stackPop(Stack *stack);
+void stackPrint(Stack *stack);
+```
+
 ### strend.c
 returns 1 if string t occurs at end of string s, 0 otherwise
 ```c
