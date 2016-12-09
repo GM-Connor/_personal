@@ -1,0 +1,32 @@
+.TH CASED 1
+.SH NAME
+cased \- changes case of input
+.SH SYNOPSIS
+.B cased
+[OPTION]
+.SH DESCRIPTION
+Transforms input to lowercase or uppercase depending on the option. No transformation if no option. Outputs result.
+.SH OPTIONS
+.TP
+.B \-l
+transforms to lowercase
+.TP
+.B \-u
+transforms to uppercase
+.SH EXAMPLES
+.TP
+$ echo Trafalgar | cased -l
+.B output: 
+trafalgar
+.TP
+$ echo Trafalgar | cased -u
+.B output: 
+TRAFALGAR
+.TP
+$ echo Trafalgar | cased
+.B output: 
+Trafalgar
+.SH AUTHOR
+Written by Connor Gray.
+.br
+<https://github.com/GM-Connor>
