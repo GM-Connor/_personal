@@ -25,6 +25,12 @@ converts newlines and tabs to escape sequences as it copies string `from[]` to s
 void escape(char to[], char from[]);
 ```
 
+### filecopy.c
+copy file infp to file outfp
+```c
+void filecopy(FILE *infp, FILE *outfp);
+```
+
 ### InsertionSort.c
 sorts array of ints increasing given array and array length
 ```c
