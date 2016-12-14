@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define FALSE		0
 #define TRUE		1
-#define STACKSIZE	3
+#define STACKSIZE	500
 typedef unsigned char Boolean;
 
 char *progname;		/* calling program name */
@@ -19,13 +19,15 @@ Stack *newStack();
 Boolean stackPush(Stack *stack, int x);
 int stackPop(Stack *stack);
 void stackPrint(Stack *stack);
+Boolean isStackEmpty(Stack *stack);
 
 
 int main(int argc, char *argv[]) {
 	progname = argv[0];
 
 	Stack *deck = newStack();
-
+	if (isStackEmpty(deck))
+		printf("empty\n");
 	stackPush(deck, 7);
 	stackPush(deck, 8);
 	stackPush(deck, 52);
@@ -82,4 +84,9 @@ void stackPrint(Stack *sp) {
 			printf("%d: %d\n", i, sp->stack[i-1]);
 	else
 		printf("EMPTY\n");
+}
+
+/* isStackEmpty: returns TRUE if stack is empty, FALSE otherwise */
+Boolean isStackEmpty(Stack *sp) {
+	return !(sp->length);
 }
