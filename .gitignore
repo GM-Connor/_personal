@@ -4,3 +4,6 @@
 .project
 JAVA/*/bin
 JAVA/*/*.class
+venv/
+.idea/
+__pycache__/
